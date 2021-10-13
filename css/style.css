@@ -278,6 +278,7 @@ body {
 
 .benefits_title {
 	margin-bottom: 24px;
+	padding-top: 6px;
 }
 
 .tablet_img {
@@ -295,16 +296,19 @@ body {
 	font-weight: 800;
 	font-size: 20px;
 	line-height: 27px;
-	margin-bottom: 20px;
+	margin-bottom: 10px;
 	margin-top: 9px;
+	margin-left: auto;
+	margin-right: auto;
+	text-align: center;
 }
 
 .benefits_line {
 	width: 50%;
-	height: 4px;
+	height: 5px;
+	border: none;
 	background-color: #fff;
 	margin: 0 auto;
-	padding: 0;
 }
 
 .benefits_index_paragraph {
@@ -366,10 +370,13 @@ body {
 		font-size: 48px;
 		line-height: 65px;
 		margin-top: 29px;
+		margin-bottom: 10px;
+		text-align: left;
 	}
 
 	.benefits_line {
 		height: 6px;
+		margin-left: 0;
 	}
 
 	.benefits_list {
@@ -378,7 +385,7 @@ body {
 
 	.benefits_list_heading {
 		font-size: 36px;
-	line-height: 49px;
+		line-height: 49px;
 	}
 
 	.mobile_img {
@@ -420,7 +427,7 @@ body {
 	.benefits_heading {
 		font-size: 55px;
 		line-height: 75px;
-		margin-bottom: 19px;
+		margin-bottom: 16px;
 		margin-top: 57px;
 	}
 
@@ -481,14 +488,15 @@ body {
 	line-height: 27px;
 	text-align: center;
 	color: #121C61;
-	margin-bottom: 13px;
+	margin-bottom: 10px;
 }
 
 .discounts_line {
 	width: 116px;
 	height: 5px;
+	border: none;
 	background-color: #121C61;
-	margin-top: 0px;
+	margin-top: 0;
 	margin-bottom: 16px;
 }
 
@@ -528,13 +536,14 @@ body {
 	.discounts_heading {
 		font-size: 48px;
 		line-height: 65px;
-		margin-bottom: 11px;
+		margin-bottom: 10px;
 	}
 
 	.discounts_line {
 		width: 296px;
 		height: 6px;
 		margin-bottom: 40px;
+		border: none;
 	}
 
 	.discounts_content {
@@ -563,7 +572,7 @@ body {
 	.discounts_heading {
 		font-size: 55px;
 		line-height: 75px;
-		margin-bottom: 25px;
+		margin-bottom: 16px;
 	}
 
 	.discounts_line {
@@ -610,12 +619,14 @@ body {
 	font-size: 20px;
 	line-height: 27px;
 	color: #FBF9FA;
+	margin-bottom: 10px;
 }
 
 .pricing_plan_line {
 	background-color: #fff;
 	width: 116px;
 	height: 5px;
+	border: none;
 	margin: auto;	
 }
 
@@ -653,6 +664,7 @@ body {
 	height: 2px;
 	margin-top: 0px;
 	margin-bottom: 7px;
+	display: none;
 }
 
 .carousel_slide_line2 {
@@ -661,6 +673,10 @@ body {
 
 .carousel_slide_list {
 	list-style: none;
+}
+
+.carousel_slide_list55 {
+    margin-top: 20px;
 }
 
 .carousel_slide_list_element {
@@ -678,6 +694,10 @@ body {
 
 .carousel_slide_list_element_second {
 	margin-bottom: 36px;
+}
+
+.carousel_slide_price_title_down {
+    margin-top: 0px;
 }
 
 .carousel_slide_price_title {
@@ -721,7 +741,7 @@ body {
 	.pricing_plan_heading {
 		font-size: 48px;
 		line-height: 65px;
-		margin-bottom: 12px;
+		margin-bottom: 10px;
 	}
 
 	.pricing_plan_line {
@@ -729,6 +749,7 @@ body {
 		width: 296px;
 		margin-top: 0px;
 		margin-bottom: 13px;
+		border: none;
 	}
 
 	.carousel_slide1_block {
@@ -780,6 +801,10 @@ body {
 		line-height: 33px;
 		letter-spacing: 0.03em;
 	}
+
+	.carousel_slide_price_title_down {
+        margin-top: 98px;
+    }
 }
 
 @media screen and (min-width: 1120px) {
@@ -792,8 +817,8 @@ body {
 	.pricing_plan_line {
 		width: 742px;
 		height: 7px;
-		margin-top: 0px;
 		margin-bottom: 20px;
+		display: block;
 	}
 
 	.carousel_slide1_block {
@@ -829,7 +854,7 @@ body {
 	}
 
 	.carousel_slide_price_title {
-		font-size: 44px;
+		font-size: 40px;
 		line-height: 65px;
 		letter-spacing: 0.03em;
 	}
@@ -925,7 +950,8 @@ body {
 	font-weight: 800;
 	font-size: 20px;
 	line-height: 27px;
-	color: #121C61
+	color: #121C61;
+	margin-bottom: 10px;
 }
 
 .video_line {
@@ -933,6 +959,8 @@ body {
 	height: 5px;
 	background-color: #121C61;
 	margin-bottom: 9px;
+	margin-top: 0;
+	border: none;
 }
 
 .mp4 {
@@ -943,12 +971,15 @@ body {
 	.video_heading {
 		font-size: 48px;
 		line-height: 65px;
+		margin-bottom: 10px;
 	}
 
 	.video_line {
 		width: 296px;
 		height: 6px;
-		margin-bottom: 22px
+		margin-bottom: 22px;
+		margin-top: 0;
+		border: none;
 	}
 
 	.mp4 {
@@ -960,12 +991,14 @@ body {
 	.video_heading {
 		font-size: 55px;
 		line-height: 75px;
+		margin-bottom: 16px;
 	}
 
 	.video_line {
 		width: 773px;
 		height: 7px;
-		margin-bottom: 40px
+		margin-bottom: 40px;
+		margin-top: 0;
 	}
 
 	.mp4 {
@@ -997,6 +1030,7 @@ body {
 	line-height: 27px;
 	text-align: center;
 	color: #121C61;
+	margin-bottom: 10px;
 }
 
 .reviews_line {
@@ -1004,6 +1038,7 @@ body {
 	width: 140px;
 	height: 5px;
 	margin: 0 auto;
+	border: none;
 }
 
 .carousel_blackquote {
@@ -1050,11 +1085,14 @@ body {
 	.reviews_heading {
 		font-size: 48px;
 		line-height: 65px;
+		margin-bottom: 10px;
 	}
 
 	.reviews_line {
 		width: 296px;
 		height: 6px;
+		margin-top: 0;
+		border: none;
 	}
 
 	.carousel_blackquote {
@@ -1085,9 +1123,11 @@ body {
 	.reviews_heading {
 		font-size: 55px;
 		line-height: 75px;
+		margin-bottom: 16px;
 	}
 
 	.reviews_line {
+		margin-top: 0;
 		width: 337px;
 		height: 7px;
 	}
@@ -1119,12 +1159,12 @@ body {
 	font-size: 20px;
 	line-height: 27px;
 	color: #fff;
-	margin-bottom: 0px;
+	margin-bottom: 10px;
 }
 
 .bonus_line {
-	margin-top: 12px;
-	margin-bottom: 31px;
+	margin-top: 0;
+	border: none;
 	width: 67px;
 	height: 5px;
 	background-color: #fff;
@@ -1153,11 +1193,12 @@ body {
 	.bonus_heading {
 		font-size: 48px;
 		line-height: 65px;
-		margin-bottom: 0px;
+		margin-bottom: 10px;
 	}
 
 	.bonus_line {
-		margin-top: 15px;
+		margin-top: 0;
+		border: none;
 		margin-bottom: 75px;
 		width: 155px;
 		height: 6px;
@@ -1182,10 +1223,11 @@ body {
 	.bonus_heading {
 		font-size: 55px;
 		line-height: 75px;
-		margin-bottom: 12px;
+		margin-bottom: 16px;
 	}
 
 	.bonus_line {
+		margin-top: 0;
 		width: 231px;
 		height: 7px;
 		margin-bottom: 51px;
@@ -1272,7 +1314,7 @@ body {
 	font-size: 12px;
 	line-height: 16px;
 	color: #121C61;
-	margin-left: 6px;
+	margin-left: 0;
 	margin-bottom: 0;
 }
 
@@ -1300,7 +1342,7 @@ body {
 	.insta-text, .email-text {
 		font-size: 24px;
 		line-height: 33px;
-		margin-left: 18px;
+		margin-left: 12px;
 	}
 
 
@@ -1313,10 +1355,6 @@ body {
 
 	.mobile_instagram_logo_pic, .mail_logo_pic {
 		transform: scale(2.35);
-	}
-
-	.q-a_link {
-		
 	}
 }
 
@@ -1346,10 +1384,6 @@ body {
 
 	.mobile_instagram_logo_pic, .mail_logo_pic {
 		transform: scale(2.64);
-	}
-
-	.q-a_link {
-		
 	}
 }
 
